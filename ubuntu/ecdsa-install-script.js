@@ -32,3 +32,8 @@ server {
   }
 }
 =========================
+=> sudo unlink default
+=> sudo ln -s /etc/nginx/sites-available/ecdsa.saigontoken.com /etc/nginx/sites-enabled/
+=> sudo systemctl status nginx.service
+  
+  
