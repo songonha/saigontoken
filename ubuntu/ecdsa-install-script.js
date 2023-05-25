@@ -1,3 +1,5 @@
+https://www.songonha.com/2022/12/how-to-set-up-a-node-js-application-for-production-on-ubuntu-18-04.html
+
 1/ Install Ngins
 => sudo apt install nginx
 
@@ -16,10 +18,10 @@ server {
   listen 80;
   listen [::]:80;
   
-  root /var/www/ecdsa.saigontoken.com/html
-  index index.html index.htm index.nginx-debian.html
+  root /var/www/ecdsa.saigontoken.com/html;
+  index index.html index.htm index.nginx-debian.html;
   
-  server_name ecdsa.saigontoken.com
+  server_name ecdsa.saigontoken.com;
   
   location / {
     proxy_pass http://localhost:5173;
