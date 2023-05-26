@@ -1,3 +1,4 @@
+https://enable-cors.org/server_expressjs.html
 In your ExpressJS app on node.js, do the following with your routes:
 
 app.use(function(req, res, next) {
